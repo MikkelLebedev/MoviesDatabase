@@ -14,7 +14,9 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff
+        "primary": #007bff,
+        "myColor": #EAEAEA,
+        "boxColor": #222222
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 

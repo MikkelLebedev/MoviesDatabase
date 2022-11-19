@@ -1,8 +1,8 @@
 <?php
 require "settings/init.php";
 
-$blogs = $db->sql("SELECT * FROM blogs");
+$Movies = $db->sql("SELECT * FROM Movies");
 
-foreach ($blogs as $blog){
-    echo $blog->blogName . "<br>";
+foreach ($Movies as $movie){
+    echo $movie->movieName . "<br>";
 }
