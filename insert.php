@@ -57,14 +57,14 @@ if (!empty($_POST["data"])) {
 			<div class="col-12 col-md-6">
 				<div class="form-group py-3">
 					<label for="movieDuration">Movie Duration</label>
-					<input type="time" class="form-control shadow border-0" step="0.1" name="data[movieDuration]" id="movieDuration" placeholder="Movie duration" value="">
+					<input type="time" class="form-control shadow border-0" name="data[movieDuration]" id="movieDuration" placeholder="Movie duration" value="">
 				</div>
 			</div>
 
 			<div class="col-12 col-md-6">
 				<div class="form-group py-3">
 					<label for="movieYear">Movie Year</label>
-					<input type="text" maxlength="4" class="form-control shadow border-0" step="0" name="data[movieYear]" id="movieYear" placeholder="Movie year" value="">
+					<input type="number" maxlength="4" class="form-control shadow border-0" step="0" name="data[movieYear]" id="movieYear" placeholder="Movie year" value="">
 				</div>
 			</div>
 
